@@ -26,7 +26,7 @@ import java.io.*;
    - the Window and Graph and miscellaneous support objects implement the
      GUI and graph drawing
    - the Oscilloscope object talks to the motes and coordinates the other
-     objects
+     objects.
 
    Synchronization is handled through the Oscilloscope object. Any operation
    that reads or writes the mote data must be synchronized on Oscilloscope.
